@@ -9,8 +9,8 @@ import { Book } from "./model/Book";
 
 export class BooksService
 {
-    private url = 'https://localhost:44382/api/bookstore';
-
+    private url = 'https://localhost:5001/api/bookstore';
+    // 44382
     httpOptions = {
         Headers: new HttpHeaders ({'content-type': 'application/json'})
     }
